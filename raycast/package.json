@@ -1,0 +1,32 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "opencode-desktop-sessions",
+  "title": "OpenCode Desktop",
+  "description": "Search OpenCode sessions and open them in Desktop.",
+  "icon": "extension-icon.png",
+  "author": "ldelelis",
+  "license": "MIT",
+  "categories": ["Developer Tools"],
+  "commands": [{
+    "name": "search-sessions",
+    "title": "Search Sessions",
+    "description": "Search local OpenCode sessions and open them in Desktop",
+    "mode": "view"
+  }],
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode/client": "2.2.6",
+    "@raycast/api": "^2.11.1",
+    "opencode-session-launcher": "*",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.9.3"
+  }
+}

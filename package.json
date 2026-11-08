@@ -1,0 +1,10 @@
+{
+  "name": "opencode-raycast-workspace",
+  "private": true,
+  "workspaces": ["plugin", "raycast"],
+  "scripts": {
+    "build": "npm run build --workspace plugin && npm run build --workspace raycast",
+    "typecheck": "npm run typecheck --workspaces",
+    "dev": "npm run dev --workspace raycast"
+  }
+}
