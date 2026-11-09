@@ -1,8 +1,8 @@
 # OpenCode Desktop sessions for Raycast
 
-Search local OpenCode V2 session titles in Raycast and open the selected session in Desktop. Results show the project and last-updated time. Enter opens the session, ⌘C copies its ID, and ⌘R refreshes. Archived sessions and child/subagent sessions are excluded.
+Search local OpenCode V2 session titles in Raycast and open the selected session in Desktop. **Search Sessions** lists active sessions; **Search Archived Sessions** lists only archived sessions. Both commands show the project and last-updated time. Enter opens the session, ⌘C copies its ID, and ⌘R refreshes. Child/subagent sessions are excluded from both lists.
 
-The extension remembers up to 1,000 session summaries in Raycast's local cache: IDs, titles, directories, and update timestamps, never message contents. Cached results appear immediately and filter locally while you type. Background server searches refresh metadata and find matches beyond the cache without clearing the list. Once a search has fetched all its pages, cached matches absent from the server results are removed. Cached metadata can be stale until refreshed; if a refresh fails, cached results remain available and the title indicates the failure. Opening a session still requires Desktop and its service to be running.
+The extension remembers up to 1,000 session summaries per command in separate Raycast caches: IDs, titles, directories, and update timestamps, never message contents. Cached results appear immediately and filter locally while you type. Background server searches refresh metadata and find matches beyond the cache without clearing the list. Once a search has fetched all its pages, cached matches absent from the server results are removed. Cached metadata can be stale until refreshed; if a refresh fails, cached results remain available and the title indicates the failure. Opening a session still requires Desktop and its service to be running.
 
 ## Install locally
 

@@ -12,6 +12,11 @@
     "title": "Search Sessions",
     "description": "Search local OpenCode sessions and open them in Desktop",
     "mode": "view"
+  }, {
+    "name": "search-archived-sessions",
+    "title": "Search Archived Sessions",
+    "description": "Search archived local OpenCode sessions and open them in Desktop",
+    "mode": "view"
   }],
   "scripts": {
     "build": "ray build",
